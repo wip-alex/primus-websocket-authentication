@@ -1,0 +1,25 @@
+{
+  "name": "primus-websocket-authentication",
+  "version": "1.0.0",
+  "description": "Token based authorization for primus",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test;npm start",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "authorization",
+    "example",
+    "primus",
+    "token"
+  ],
+  "author": "Alex Davis <alex@alex2006hw.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.15.5",
+    "jwt-simple": "0.5.1",
+    "primus": "7.1.0",
+    "ws": "3.2.0"
+  }
+}

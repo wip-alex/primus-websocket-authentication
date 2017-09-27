@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js"
+  },
+  "keywords": [],
+  "author": "UserToken Admin <admin@usertoken.com> (https://www.usertoken.com)",
+  "license": "ISC",
+  "dependencies": {
+    "jwt-simple": "^0.5.1",
+    "primus": "^7.1.0",
+    "superagent": "^3.6.0",
+    "ws": "^3.2.0"
+  }
+}
